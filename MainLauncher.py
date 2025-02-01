@@ -184,7 +184,7 @@ class Bridge(QObject):
         style &= ~win32con.WS_EX_LAYERED
         win32gui.SetWindowLong(hwnd, win32con.GWL_EXSTYLE,style)
         self.window.close()
-
+#Сосал?
 
 if __name__ == "__main__":
     import sys
